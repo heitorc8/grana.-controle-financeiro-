@@ -1,0 +1,13 @@
+{
+  "name": "Grana — Controle financeiro",
+  "short_name": "Grana",
+  "description": "Organize receitas e despesas com leveza.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f7f2",
+  "theme_color": "#386b4d",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
