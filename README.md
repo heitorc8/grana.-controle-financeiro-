@@ -38,7 +38,7 @@ Os dados de cada pessoa ficam salvos no navegador e no aparelho dela. Esta vers�
 - Categorias Veículo e Investimentos incluídas.
 - Orçamentos mensais por categoria de despesa.
 - Lançamentos mensais recorrentes. Ao excluir um lançamento recorrente, também são interrompidas as próximas ocorrências.
-- Parcelamento de despesas: informe o valor de cada parcela, a quantidade e a data da primeira parcela; os lançamentos mensais são criados e identificados no histórico.
+- Parcelamento de despesas: informe o valor total da compra, a quantidade de parcelas e a data da primeira; o total é dividido em parcelas mensais e identificado no histórico.
 - Comparação das receitas e despesas com o mês anterior.
 - Meta mensal de reserva acompanhada pelos lançamentos de investimento.
 
