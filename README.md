@@ -39,6 +39,7 @@ Os dados de cada pessoa ficam salvos no navegador e no aparelho dela. Esta vers�
 - Orçamentos mensais por categoria de despesa.
 - Lançamentos mensais recorrentes. Ao excluir um lançamento recorrente, também são interrompidas as próximas ocorrências.
 - Parcelamento de despesas: informe o valor total da compra, a quantidade de parcelas e a data da primeira; o total é dividido em parcelas mensais e identificado no histórico.
+- Ao excluir uma parcela, escolha remover apenas ela ou também todas as parcelas seguintes.
 - Comparação das receitas e despesas com o mês anterior.
 - Meta mensal de reserva acompanhada pelos lançamentos de investimento.
 
