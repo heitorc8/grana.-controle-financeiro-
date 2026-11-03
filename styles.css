@@ -20,3 +20,46 @@
 .chart-touch-details{margin:5px 0 0;color:#98a198;font-size:9px;line-height:1.5}.trend-column{cursor:pointer}
 .installment-delete-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:7px;margin-top:18px}.installment-delete-actions .secondary-button,.installment-delete-actions .primary-button,.installment-delete-actions .cancel-button{font-size:10px}.installment-delete-modal{width:min(100%,460px)}
 @media(max-width:600px){.installment-delete-actions{display:grid;grid-template-columns:1fr}.installment-delete-actions button{width:100%;min-height:38px}}
+/* Refinamento visual: saldo e uso em telas pequenas */
+.balance-card{background:linear-gradient(135deg,#315f43 0%,#427b55 100%);border-radius:18px;box-shadow:0 12px 28px rgba(38,91,56,.16)}.balance-card.balance-negative{background:linear-gradient(135deg,#804f45 0%,#a26554 100%);box-shadow:0 12px 28px rgba(128,79,69,.14)}.balance-card.balance-zero{background:linear-gradient(135deg,#536c5a 0%,#687e6b 100%)}.balance-status{display:flex;align-items:center;gap:6px}.balance-status i{margin:0}
+@media(max-width:600px){
+ .main-area{padding:0 14px calc(92px + env(safe-area-inset-bottom))}
+ .topbar{position:sticky;top:0;z-index:4;height:60px;background:var(--paper);gap:8px}
+ .mobile-menu{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#fff;font-size:17px;flex:none}
+ .breadcrumb{font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .top-actions{gap:4px;flex:none}
+ .summary-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .balance-card{grid-column:1/-1;min-height:164px;padding:21px 20px;border-radius:18px}
+ .balance-value{font-size:31px;letter-spacing:-1px;margin:21px 0 17px}
+ .balance-foot{flex-wrap:wrap;gap:6px}
+ .balance-status{font-size:10px}
+ .stat-card{min-height:120px;border-radius:14px}
+ .page{padding-top:20px}
+ .page-heading{margin-bottom:18px;align-items:center}
+ .period-switch{gap:10px}
+ .period-switch button{width:36px;height:36px;border-radius:11px}
+ .period-switch strong{font-size:12px}
+ .period-note{font-size:9px}
+ .search-box{width:100%;height:44px}
+ .search-box input{font-size:12px}
+ .filter-group{width:100%;gap:7px}
+ .filter-group select{height:44px;flex:1;min-width:0;padding:0 8px;font-size:9px}
+ .list-toolbar{gap:8px;margin-bottom:13px}
+ .transactions-panel{margin-top:14px}
+ .mobile-tabs{grid-template-columns:repeat(6,minmax(0,1fr));min-height:64px;padding:7px 4px max(8px,env(safe-area-inset-bottom))}
+ .mobile-tab{min-width:0;min-height:44px;padding:3px 0;font-size:7.5px;line-height:1.1;gap:4px}
+ .mobile-tab span{font-size:17px}
+ .mobile-tab.quick-add span{width:30px;height:30px;border-radius:10px}
+ .modal-backdrop{align-items:flex-end;padding:0}
+ .modal{width:100%;max-height:92dvh;overflow-y:auto;padding:23px 20px max(20px,env(safe-area-inset-bottom));border-radius:22px 22px 0 0}
+ .type-toggle{grid-template-columns:repeat(3,minmax(0,1fr));gap:3px}
+ .type-option{min-height:42px;padding:8px 3px;font-size:9px}
+ .form-row{grid-template-columns:1fr;gap:0}
+ .field-label input,.field-label select,.amount-input{height:44px;min-height:44px}
+ .amount-input input{height:42px}
+ .recurring-option{min-height:54px;padding:12px}
+ .recurring-option input{width:18px;height:18px;flex:none}
+ .modal-actions{position:sticky;bottom:-1px;background:#fff;padding-top:10px}
+ .modal-actions button{min-height:42px}
+}
+@media(max-width:360px){.mobile-tab{font-size:7px}.top-actions{gap:3px}.main-area{padding-left:12px;padding-right:12px}.balance-value{font-size:28px}}
